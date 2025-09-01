@@ -1,0 +1,32 @@
+﻿# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-*.log*
+pnpm-debug.log*
+
+# Env files (keep examples)
+.env
+.env.local
+.env.development
+.env.production
+!.env.example
+!.env.sample
+
+# Next.js
+.next/
+out/
+
+# Vite/Build
+dist/
+build/
+
+# Tooling
+.vercel/
+.turbo/
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
