@@ -1,0 +1,6 @@
+{
+  "version": 1,
+  "baseBuilder": {
+    "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
+  }
+}

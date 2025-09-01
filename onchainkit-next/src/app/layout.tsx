@@ -4,6 +4,7 @@ import '@coinbase/onchainkit/styles.css';
 import "./globals.css";
 
 import { Providers } from "./providers";
+import type { ReactNode } from "react";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,10 +21,13 @@ export async function generateMetadata(): Promise<Metadata> {
   const URL = process.env.NEXT_PUBLIC_URL || "";
   return {
     title: process.env.NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME || "",
-    description: "Your Mini App description here",
+    description: "Proofer Slots Learn & Mint",
     other: {
       "fc:frame": JSON.stringify({
         version: "next",
+        baseBuilder: {
+          allowedAddresses: ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"],
+        },
         imageUrl: process.env.NEXT_PUBLIC_APP_HERO_IMAGE || "",
         button: {
           title: `Launch ${process.env.NEXT_PUBLIC_ONCHAINKIT_PROJECT_NAME || ""}`,
@@ -43,7 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
     <html lang="en">
