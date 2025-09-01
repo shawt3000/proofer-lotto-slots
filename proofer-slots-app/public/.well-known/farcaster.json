@@ -20,7 +20,7 @@
   "accountAssociation": {
     "header": "eyJmaWQiOjEyMzAzOTIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFYkY3MkQ0YTMzN0IzRkY3N2IwZDBkMzY2NWUzRkU3M0M2NzRlMzliIn0",
     "payload": "eyJkb21haW4iOiJodHRwczovL3Byb29mZXItbG90dG8tc2xvdHMtOHF6di52ZXJjZWwuYXBwLyJ9",
-    "signature": "Jf4cvKWNx8rHwfeT3ySF6lPvKlf32LEwpa9ZuwPeo4Nd4EIIAU0oJr8Drh0AMrdIPTzKuNdB3WCmwBgCCNFR0hs="
+    "signature": "2UUm5b+karN0mLvdbC1ePQx4bZPiV/OfA0P/1gFFEDkXNT/LMimT8seIqFxuFDUml9c/BBxp9kS1s9UZuEBl6hs=="
   },
   "baseBuilder": {
     "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
