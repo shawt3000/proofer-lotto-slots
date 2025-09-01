@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
-    "header": "",
-    "payload": "",
-    "signature": ""
+    "header": "REPLACE_WITH_HEADER_FROM_WARPCAST",
+    "payload": "REPLACE_WITH_PAYLOAD_FROM_WARPCAST",
+    "signature": "REPLACE_WITH_SIGNATURE_FROM_WARPCAST"
   },
   "baseBuilder": {
     "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
