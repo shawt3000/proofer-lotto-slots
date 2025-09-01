@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
+  },
+  "frame": {
+    "version": "1",
+    "name": "Proofer Slots",
+    "homeUrl": "https://proofer-lotto-slots-8qzv.vercel.app/",
+    "iconUrl": "https://proofer-lotto-slots-8qzv.vercel.app/favicon.ico",
+    "splashImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "",
+    "subtitle": "Spin to win",
+    "description": "Proofer Slots Learn & Mint",
+    "screenshotUrls": [],
+    "primaryCategory": "games",
+    "tags": ["slots", "game", "baseapp", "miniapp"],
+    "heroImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
+    "tagline": "Spin to win",
+    "ogTitle": "Proofer Slots",
+    "ogDescription": "Spin the reels and mint rewards.",
+    "ogImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
+    "noindex": false
+  }
+}
