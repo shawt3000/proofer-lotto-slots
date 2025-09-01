@@ -1,8 +1,5 @@
 export const dynamic = 'force-static';
 
-const HOSTED_MANIFEST_URL =
-  'https://api.farcaster.xyz/miniapps/hosted-manifest/019903d3-5094-29ad-b589-71f0fb1a1e83';
-
 function csvToArray(input: string | undefined): string[] {
   if (!input) return [];
   return input
@@ -95,27 +92,15 @@ function buildLocalManifest() {
   };
 }
 
-export function GET(req: Request) {
-  const url = new URL(req.url);
-  // Allow manual inspection via ?raw=1
-  if (url.searchParams.has('raw')) {
-    return Response.json(buildLocalManifest(), {
-      headers: {
-        'Content-Type': 'application/json; charset=utf-8',
-        'Cache-Control': 'public, max-age=0, s-maxage=300, stale-while-revalidate=600',
-      },
-    });
-  }
-  return Response.redirect(HOSTED_MANIFEST_URL, 307);
+export function GET() {
+  return Response.json(buildLocalManifest(), {
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Cache-Control': 'public, max-age=0, s-maxage=300, stale-while-revalidate=600',
+    },
+  });
 }
 
-export function HEAD(req: Request) {
-  const url = new URL(req.url);
-  if (url.searchParams.has('raw')) {
-    return new Response(null, {
-      status: 204,
-      headers: { 'x-raw': 'true' },
-    });
-  }
-  return Response.redirect(HOSTED_MANIFEST_URL, 307);
+export function HEAD() {
+  return new Response(null, { status: 204 });
 }
