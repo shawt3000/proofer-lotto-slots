@@ -1,4 +1,28 @@
 {
-  "name": "Proofer Lotto Slots",
-  "homepageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/"
+  "domain": "https://proofer-lotto-slots-8qzv.vercel.app/",
+  "frame": {
+    "name": "Proofer Slots",
+    "tags": ["slots", "games", "miniapp", "base", "casino"],
+    "homeUrl": "https://proofer-lotto-slots-8qzv.vercel.app/",
+    "iconUrl": "https://proofer-lotto-slots-8qzv.vercel.app/icon.png",
+    "tagline": "Spin to mint. Learn and burn.",
+    "version": "1",
+    "imageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/image.png",
+    "subtitle": "Win Proofer Tokens On Base",
+    "webhookUrl": "https://proofer-lotto-slots-8qzv.vercel.app/api/webhook",
+    "buttonTitle": "Shazam!",
+    "description": "Spin and mint with Proofer to learn Web3 and Base.",
+    "ogDescription": "Spin and mint with Proofer to learn Web3 and Base.",
+    "splashImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/splash.png",
+    "primaryCategory": "games",
+    "splashBackgroundColor": "#0052FF"
+  },
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzAzOTIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFYkY3MkQ0YTMzN0IzRkY3N2IwZDBkMzY2NWUzRkU3M0M2NzRlMzliIn0",
+    "payload": "eyJkb21haW4iOiJodHRwczovL3Byb29mZXItbG90dG8tc2xvdHMtOHF6di52ZXJjZWwuYXBwLyJ9",
+    "signature": "Jf4cvKWNx8rHwfeT3ySF6lPvKlf32LEwpa9ZuwPeo4Nd4EIIAU0oJr8Drh0AMrdIPTzKuNdB3WCmwBgCCNFR0hs="
+  },
+  "baseBuilder": {
+    "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
+  }
 }
