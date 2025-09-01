@@ -1,8 +1,8 @@
 {
   "accountAssociation": {
-    "header": "REPLACE_WITH_HEADER_FROM_WARPCAST",
-    "payload": "REPLACE_WITH_PAYLOAD_FROM_WARPCAST",
-    "signature": "REPLACE_WITH_SIGNATURE_FROM_WARPCAST"
+    "header": "eyJmaWQiOjEyMzAzOTIsInR5cGUiOiJhdXRoIiwia2V5IjoiMHhFYkY3MkQ0YTMzN0IzRkY3N2IwZDBkMzY2NWUzRkU3M0M2NzRlMzliIn0",
+    "payload": "eyJkb21haW4iOiJodHRwczovL3Byb29mZXItbG90dG8tc2xvdHMtOHF6di52ZXJjZWwuYXBwLyJ9",
+    "signature": "Jf4cvKWNx8rHwfeT3ySF6lPvKlf32LEwpa9ZuwPeo4Nd4EIIAU0oJr8Drh0AMrdIPTzKuNdB3WCmwBgCCNFR0hs="
   },
   "baseBuilder": {
     "allowedAddresses": ["0x9C053E44DDB483689cC70f63D5e0d7dE9be90d71"]
@@ -11,20 +11,20 @@
     "version": "1",
     "name": "Proofer Slots",
     "homeUrl": "https://proofer-lotto-slots-8qzv.vercel.app/",
-    "iconUrl": "https://proofer-lotto-slots-8qzv.vercel.app/favicon.ico",
-    "splashImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
-    "splashBackgroundColor": "#000000",
-    "webhookUrl": "",
-    "subtitle": "Spin to win",
-    "description": "Proofer Slots Learn & Mint",
+    "iconUrl": "https://proofer-lotto-slots-8qzv.vercel.app/icon.png",
+    "splashImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/splash.png",
+    "splashBackgroundColor": "#0052FF",
+    "webhookUrl": "https://proofer-lotto-slots-8qzv.vercel.app/api/webhook",
+    "subtitle": "Win Proofer Tokens On Base",
+    "description": "Spin and mint with Proofer to learn Web3 and Base.",
     "screenshotUrls": [],
     "primaryCategory": "games",
-    "tags": ["slots", "game", "baseapp", "miniapp"],
-    "heroImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
-    "tagline": "Spin to win",
+    "tags": ["slots", "games", "miniapp", "base"],
+    "heroImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/image.png",
+    "tagline": "Spin to mint. Learn and burn.",
     "ogTitle": "Proofer Slots",
-    "ogDescription": "Spin the reels and mint rewards.",
-    "ogImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/og.png",
+    "ogDescription": "Spin and mint with Proofer to learn Web3 and Base.",
+    "ogImageUrl": "https://proofer-lotto-slots-8qzv.vercel.app/image.png",
     "noindex": false
   }
 }
